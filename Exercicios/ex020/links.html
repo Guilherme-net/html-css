@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: aliceblue;
+        }
+
+        a {
+            color: rgb(38, 185, 185);
+            text-decoration: none;
+            
+        }
+
+        a:active {
+            color: rgb(255, 0, 0);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .especial::after {
+            content: '«';
+        }
+
+        .especial::before {
+            content: '»';
+        }
+
+        .especial {
+            background-color: rgb(0, 0, 0);
+            color: antiquewhite;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalisando Links</h1>
+    <h2>Minhas Redes Sociais Abaixo:</h2>
+    <ul>
+        <li>Acesse Meu <a href="https://www.instagram.com/024_guilhermec/" target="_blank">Instagram</a></li>
+
+        <li>Acesse Meu <a href="https://www.youtube.com/@Historiazinou" target="_blank" class="especial">Youtube</a></li>
+
+        <li>Acesse Meu <a href="https://www.instagram.com/" target="_blank">Instagram2</a></li>
+    </ul>
+</body>
+</html>

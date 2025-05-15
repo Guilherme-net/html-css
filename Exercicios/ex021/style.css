@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(131, 255, 255);
+    padding: 1px 5px 5px 5px;
+    margin: 4px auto 4px auto;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(71, 187, 187, 0.753);
+    box-shadow: 1px 1px 2px black;
+}
+
+nav > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 8px;
+}
+
+nav > a:hover {
+    color: red;
+}
+
+main {
+    background-color: rgb(115, 224, 224);
+    padding: 1px 5px 5px 5px;
+    margin: 4px;
+    
+    
+}
+
+main > #primeiro {
+    background-color: rgb(89, 172, 172);
+    text-decoration: underline;
+    padding: 1px 2px;
+    margin: 4px auto 4px auto;
+    font-size: 19px;
+    width: 400px;
+    text-align: center;
+    border-radius: 18px 0px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.651);
+    
+}
+
+main > #brasil > article {
+    background-color: rgb(89, 172, 172);
+    padding: 1px 2px;
+    margin: 4px auto 4px auto;
+    width: 400px;
+
+}
+
+main > #explicar > article {
+    background-color: rgb(89, 172, 172);
+    padding: 1px 2px;
+    margin: 4px auto 4px auto;
+    width: 400px;
+}
+
+main > #fuja > article {
+    background-color: rgba(240, 248, 255, 0.658);
+    padding: 1px 2px;
+    margin: 4px auto 4px auto;
+    width: 400px;
+}
+
+
+
+footer {
+    background-color: rgba(81, 160, 160, 0.603);
+    text-align: center;
+    margin: 1px auto 1px auto;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid black
+}
+
+footer > p {
+    margin: 0px;
+}
+
+#explicar > article > aside > a {
+    text-decoration: none;
+    color: white;
+}
+
+#explicar > article > aside a:hover {
+    color: red;
+    text-decoration: underline red;
+}
+
+#h2oqueaconteceu {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.8em;
+}
+
+#oquevamosfazer {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.8em;
+}
+
+main > #brasil > article > p {
+    text-align: center, justify;
+}
+
+main > #brasil > article > aside {
+    text-align: center;
+}
+
+main > #brasil > article > aside > a {
+    text-decoration: none;
+    color: white;
+}
+
+main > #brasil > article > aside > a:hover {
+    color: red;
+    text-decoration: underline red;
+}
+
+main > #explicar > article > aside {
+    text-align: center;
+}
+
+main > #explicar > article > p {
+    text-align: center justify;
+}
+
+main > #fuja > article > p {
+    text-align: justify;
+}
+
+#bola {
+    height: 80px;
+    width: 80px;
+    margin: 10px auto 10px auto;
+    background-color: rgba(81, 160, 160, 0.603);
+    border-radius: 80px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.692);
+
+
+    }

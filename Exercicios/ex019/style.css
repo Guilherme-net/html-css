@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color:#44d1db85;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: #233233;
+    text-decoration: underline;
+
+}
+
+h1#titulo {
+    color: #000000;
+    background-color: #537375c9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 2.5em;
+    text-align: center;
+    
+}
+
+h2 {
+    color: #56A3A8;
+}
+
+.basico {
+    color: #56A3A8;
+}
+
+.medio {
+    color: #a8a056;
+}
+
+.avancado {
+    color: #a85656;
+}

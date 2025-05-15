@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+h1{
+    color: rgb(98, 190, 160);
+
+}
+
+h2{
+    color: brown;
+}
+
+p{
+    font-style: italic;
+    text-align: justify;
+}

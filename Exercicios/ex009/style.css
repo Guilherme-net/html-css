@@ -1,0 +1,23 @@
+h2 /* H2 TOTAL */ {
+    text-decoration: underline;
+
+} 
+.h1dapag2 /*h1 da página 2 */ {
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+.oldapag2{
+    text-align: center;
+    text-transform: capitalize;
+    list-style-type: circle;
+    padding-left: 0;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+ul{
+    list-style-type: circle;
+    padding-left: 0;
+}
