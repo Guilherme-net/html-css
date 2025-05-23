@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    height: 100vh;
+   min-height: 100vh;
 
     /* background-color: black;
     background-image: url("imagens/wallpaper002.jpg");
@@ -14,15 +14,29 @@ body {
         color > image > position > repeat > (size) > attachment */
 
 
-    background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
+    background: blue url("imagens/wallpaper002.jpg") center top no-repeat fixed;
     background-size: cover;
 }
 
 main {
     background-color: white;
-    max-width: 400px;
-    padding: 10px;
+    max-width: 450px;
+    padding: 15px;
     margin: auto;
+    margin-bottom: 20px;
     border: 1px solid red;
     border-radius: 15px;
+}
+
+main h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 255, 0.253);
+}
+
+main p {
+    text-align: justify;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
