@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais um pouco de tabelas</title>
+
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        table {
+            width: 450px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+        thead, tfoot {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Maiores e mais elaboradas</h1>
+
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD (HEADER DA TABELA)
+                TR, TD, TH
+            TBODY (CORPO DA TABELA)
+                TR, TD, TH
+            TFOOT (FOOTER DA TABELA)
+                TR, TD, TH
+    -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+                <th>% do total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Roraima</td>
+                <td>716 793</td>
+                <td>0,34%</td>
+            </tr>
+
+            <tr>
+                <td>Amapá</td>
+                <td>802 837</td>
+                <td>0,38%</td>
+            </tr>
+            
+            <tr>
+                <td>Acre</td>
+                <td>880 631</td>
+                <td>0,41%</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total Da População</th>
+                <td>0000000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
