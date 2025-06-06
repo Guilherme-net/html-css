@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais e mais tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .ultima {
+            background-color: aqua;
+        }
+
+        .terceiro {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas (sim, mais uma vez)</h1>
+
+    <table>
+
+        <colgroup>
+            <col class="terceiro" span="3">
+            <col class="ultima">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Claudia</td>
+            <td>F</td>
+            <td>72</td>
+            <td>Aposentada</td>
+        </tr>
+
+        <tr>
+            <td>Victorio</td>
+            <td>H</td>
+            <td>34</td>
+            <td>Ator</td>
+        </tr>
+
+        <tr>
+            <td>Miguel</td>
+            <td>H</td>
+            <td>27</td>
+            <td>Desempregado</td>
+        </tr>
+
+        <tr>
+            <td>Nicolle</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Arquiteta</td>
+        </tr>
+
+        <tr>
+            <td>Guilherme</td>
+            <td>H</td>
+            <td>23</td>
+            <td>Paleontologo</td>
+        </tr>
+
+        <tr>
+            <td>Junior</td>
+            <td>H</td>
+            <td>28</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+</body>
+</html>
